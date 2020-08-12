@@ -1,0 +1,95 @@
+.bg-dark {
+  background-color: rgb(37, 37, 37);
+  min-height: 100vh;
+}
+
+.flex-end {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  
+  .side-margin-5 {
+    margin: 0 5px;
+  }
+
+.inFront {
+  z-index: 10;
+}
+
+  .side-margin-15 {
+    margin: 0 15px;
+  }
+  .side-margin-25 {
+    margin: 0 15px;
+  }
+
+  .flex {
+    display: flex;
+  }
+  .bg-purple {
+    background-color: rgb(36, 15, 103);
+  }
+
+  .bg-blue {
+    background-color: rgb(43, 55, 66);
+  }
+
+  .box-height-80 {
+    height: 80px;
+    width: 100%;
+  }
+  
+  .relative {
+    position: relative;
+  }
+  
+  .fixed {
+    position: fixed;
+  }
+
+  
+  .justify-center{
+    justify-content: center;
+  }
+
+  .justify-start{
+    justify-content: start;
+  }
+
+  .justify-between{    
+    justify-content: space-between;
+  }
+  .flex-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .text-white {
+    color: white;
+  }
+
+  .self-center {
+      align-self: center;
+  }
+
+  .bg-light-green {
+    background-color: rgb(46, 204, 113);
+  }
+
+.pointer-cursor:hover {  
+  cursor: pointer;
+}
+
+.fontSize-20 {
+  font-size: 20px;
+}
+.fontSize-5 {
+  font-size: 5px;
+}
+
+.checkboxSize {
+  height: 0px;
+  border-radius: 20px !important;
+  zoom: 0.7;
+}

@@ -1,24 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
+import ProfilePage from './Components/Pages/Profile/ProfilePage'
+import Layout from './Components/Layouts/DefaultLayout'
 import './App.css';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Layout>
+        <ProfilePage/>
+      </Layout>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+      <link rel="stylesheet" href="css/flexboxgrid.min.css" type="text/css"/>
     </div>
   );
 }

@@ -1,0 +1,73 @@
+#Checklist {
+    position: fixed;
+    right: 20px;
+    bottom: 30px;    
+    font-family: 'Roboto', sans-serif;
+}
+
+#GetStarted {
+    border-radius: 15px;
+    width: 150px;
+    height: 35px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: ubuntu, sans-serif;
+    font-size: 14px;
+}
+
+.arrow-size {
+    width: 8px;
+    height: 5px;
+}
+
+.bg-light_purple-hover:hover {
+    background-color: rgb(86, 39, 243);
+    cursor: pointer;
+}
+.bg-light_blue-hover:hover {
+    background-color: rgb(51, 67, 82);
+    cursor: pointer;
+}
+
+#CheckList {
+    width: 380px;
+    height: 330px;
+}
+
+.top-padding-10 {
+    padding-top: 10px;
+}
+.div_buttonSize {
+    width: 140px;
+    height: 30px;
+    padding-top: 5px;
+}
+
+.max-width-280 {
+    max-width: 280px;
+}
+.max-width-290 {
+    max-width: 290px;
+}
+
+.completionImageSize {
+    width: 85px;
+}
+
+.bottom-margin-5 {
+    margin-bottom: 5px;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.fontSize-12 {
+    font-size: 12px;
+}
+
+.right-margin-3 {
+    margin-right: 3px;
+}

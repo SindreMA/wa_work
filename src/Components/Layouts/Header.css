@@ -1,0 +1,28 @@
+#profileImage {
+  border-radius: 100%;
+  width: 40x;
+  height: 40px;
+}
+
+.selected-btn {
+  border-bottom: 4px solid rgb(134, 69, 192) !important;
+}
+
+#DivButtonsContainer div {
+  height: 70px;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  border-bottom: 4px solid rgb(36, 15, 103);
+}
+#DivButtonsContainer a {
+  align-self: center;
+  color: inherit;
+  text-decoration: inherit;
+}
+
+#DivButtonsContainer div:hover {
+  border-bottom: 4px solid rgb(112, 30, 184);
+  cursor: pointer;
+}
+
